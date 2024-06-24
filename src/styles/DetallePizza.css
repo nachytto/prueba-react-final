@@ -1,0 +1,66 @@
+.container-detalles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pizza-info{
+    height: 250px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.volver-menu{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.pizza-details-container button {
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+
+  .pizza-details-container button.clicked {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  .container-detalles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .pizza-info {
+    height: 250px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .volver-menu {
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+
+  .pizza-details-container button {
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+
+  .pizza-details-container button.clicked {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  

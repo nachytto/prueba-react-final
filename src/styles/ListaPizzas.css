@@ -1,0 +1,64 @@
+.pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .pizza-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .pizza-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .ingredients {
+    margin-bottom: 10px;
+  }
+  
+  .ingredients ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.pizza-card button {
+  border-style: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.pizza-card button:active {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.pizza-card button {
+  border-style: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.pizza-card button.clicked {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
